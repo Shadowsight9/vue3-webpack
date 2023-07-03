@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "webpack serve --progress",
     "build": "webpack --env production --progress",
+    "build:dev": "webpack --env development --progress",
     "lint": "eslint --ext ts,tsx,js,jsx src && vue-tsc --noEmit"
   },
   "devDependencies": {

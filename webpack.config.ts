@@ -53,7 +53,7 @@ export default function (env: Env): webpack.Configuration {
 
   const webpackConfig: webpack.Configuration = {
     mode,
-    devtool: isProduction ? false : 'eval-source-map',
+    devtool: false, // 'eval-source-map'
     context,
     target: 'web',
     entry: {
